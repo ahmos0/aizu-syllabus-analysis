@@ -2,7 +2,7 @@ import org.jsoup.Jsoup
 import org.jsoup.nodes.Document
 import java.io.FileWriter
 
-fun main() {
+fun syllabusParse() {
     val url = "https://web-ext.u-aizu.ac.jp/official/curriculum/syllabus/1_J_000.html"
 
     try {
